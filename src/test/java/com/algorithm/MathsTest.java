@@ -1,5 +1,6 @@
 package com.algorithm;
 
+import com.algorithm.util.PrintUtils;
 import org.junit.Test;
 
 /**
@@ -7,13 +8,14 @@ import org.junit.Test;
  * @description
  * @date 2018-03-26 上午11:36
  */
-public class MathTest {
+public class MathsTest {
 
     @Test
     public void sumTest() {
 
-        int s=10;
-        int total=Math.sum(s);
+        int s=4;
+        int total= Maths.sum(s);
+        PrintUtils.print(total);
     }
 
 }
